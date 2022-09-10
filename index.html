@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="style.css">
 <script src="global.js"></script>
-<?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."headernav.html"); ?>
-
+<header>
+    <h1>Deividas Pupsys</h1><br>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <div class ="dropdown">
+            <button class="dropbtn" onclick="dropdownBtn()">Assignments
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="assignment1.html">Assignment 1</a>
+                <a href="index.html">Assignment 2</a>
+            </div>   
+        </div>
+    </div> 
+</header>
 <body>
-Body
+Home Page
 </body>
