@@ -28,7 +28,7 @@ function calculate() {
   }
   demo.innerHTML = text;
 }
-
+//Highcharts
 function plot(){
 	calculate();
   chart = new Highcharts.Chart({
