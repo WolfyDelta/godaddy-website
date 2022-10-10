@@ -4,6 +4,8 @@
   <head>
     <title>Deividas Pupsys</title>
     <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="json.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="global.js"></script>
     <body>
     <h1>Deividas Pupsys</h1>
@@ -25,9 +27,15 @@
         </div>
       </div>
     </div>
+    <div class="json">
+    <span>JSON:</span>
+    International 2022 Last Chance Qualifier Group Stage
+    <pre id="json"></pre>
+    <input type="button" id="btnConvert" value="Convert To Table" />    
+    <div class="text-home">
+    </div>
+    </div>
+  </body>
 
-  <div class="text">
-    Hello World! <br />
-    <img src="images/python.jpg" alt="hello World" />
-  </div>
-</body>
+  <script src="json.js"></script>
+</html>
